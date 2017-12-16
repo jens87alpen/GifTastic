@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic Athlete Edition</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Assets/style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+
+<body style="background-image: url(Assets/back.png);">
+  
+ <div class="container" style="display: none;">
+    <h1 style="font-size: 5em";>ATHLETE SEARCH</h1>
+
+    
+
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <form id="athlete-form">
+      <label style="color: white; font-weight: bolder; font-size: 2em;" id="input" for="athlete-input">Add an Athlete</label>
+      <input type="text" id="athlete-input"><br>
+
+      <!-- Button triggers new athlete to be added -->
+      <input id="add-athlete" type="submit" value="Add an athlete">
+    </form>
+
+    <!-- athletes will Get Dumped Dere -->
+    <div id="athlete-view"></div>
+
+
+
+  <script type="text/javascript" src="Assets/GifTastic.js"></script>
+</body>
+
+</html>

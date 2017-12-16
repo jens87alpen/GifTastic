@@ -1,0 +1,17 @@
+.container h1 {
+	color: white;
+	font-weight: bolder;
+	margin-bottom: 80px;
+	margin-top: 130px;
+}
+
+#athlete-form {
+	margin-top: 50px;
+	float: right;
+	margin-right: 100px;
+}
+
+#input {
+	margin-left: -150px;
+	padding: 10px;
+}
