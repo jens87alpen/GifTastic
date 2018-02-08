@@ -9,26 +9,55 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 
-<body style="background-image: url(Assets/back.png);">
+<body style="background-image: url(Assets/back1.jpeg);">
   
- <div class="container" style="display: none;">
-    <h1 style="font-size: 5em";>ATHLETE SEARCH</h1>
+ <div class="container">
+    
+    <div class="row firstrow">
+      <div class="col-lg-12">
+        <h1>Find some GIF's of your favorite Players</h1>
+      </div>
+    </div>
 
     
+    <div class="row secondrow">
+      <div class="col-lg-5">
+        <h2>Some Athletes to look for..</h2>
+      </div>     
 
-    <!-- Rendered Buttons will get Dumped Here  -->
-    <div id="buttons-view"></div>
+      <div clas="col-lg-6">
+        <!-- Rendered Buttons will get Dumped Here  -->
+        <div style="color: black" id="buttons-view"></div>
+      </div>
+  
+    </div>
 
-    <form id="athlete-form">
-      <label style="color: white; font-weight: bolder; font-size: 2em;" id="input" for="athlete-input">Add an Athlete</label>
-      <input type="text" id="athlete-input"><br>
 
-      <!-- Button triggers new athlete to be added -->
-      <input id="add-athlete" type="submit" value="Add an athlete">
-    </form>
+    <div class="row">
+      <div class="col-lg-3">
+      </div>
 
-    <!-- athletes will Get Dumped Dere -->
-    <div id="athlete-view"></div>
+      <div class="col-lg-6">
+        <form id="athlete-form">
+          <input type="text" id="athlete-input" placeholder="Enter Athlete name..">
+          <!-- Button triggers new athlete to be added -->
+          <input id="add-athlete" type="submit" value="Submit" style="width: 20%; background-color: #685B4A; color: white; margin-bottom: 50px;"></input>
+        </form>
+
+      <div class="col-lg-3">
+      </div>
+
+        <!-- athletes will Get Dumped Dere -->
+        <div class="col-lg-12">
+          <div id="athlete-view"></div>
+        </div>
+      
+      </div>
+    </div>
+
+  </div>
+
+    
 
 
 

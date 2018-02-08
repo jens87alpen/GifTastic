@@ -1,17 +1,67 @@
+ 
+body {
+   margin: 0px;
+   padding: 0px;
+	background-color: black;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.container {
+	background-color: white;
+	margin-top: 5%;
+}
+
+.firstrow {
+	background-color: #685B4A;
+}
+
+.secondrow {
+	background-color: #F2765C;
+	color: white;
+	padding: 30px;
+}
+
+.thirdrow {
+	background-color: white;
+}
+
 .container h1 {
 	color: white;
 	font-weight: bolder;
-	margin-bottom: 80px;
-	margin-top: 130px;
+	font-size: 3.5em;
+	text-align: center;
+	padding: 50px;
 }
 
-#athlete-form {
-	margin-top: 50px;
-	float: right;
-	margin-right: 100px;
-}
-
-#input {
-	margin-left: -150px;
+input {
+	background-color: transparent;
+	color: grey;
+	border: 1px solid grey;
+	border-radius: 25px;
+	width: 100%;
 	padding: 10px;
+
+}
+
+#athlete-input {
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+#add-athlete {
+	background-color: transparent;
+	color: grey;
+	border: 1px solid grey;
+	border-radius: 25px;
+	
+}
+
+#athlete-view {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
 }

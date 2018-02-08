@@ -1,6 +1,6 @@
 
  // Initial array of athlete
-      var athletes = ["Mike Tyson", "Muhammad Ali", "Matthias Steiner", "Arnold Schwarzenegger", "Michael Jordan"];
+      var athletes = ["LeBron James", "Rob Gronkowski", "Nick Foles"];
 
       // displayathleteInfo function re-renders the HTML to display the appropriate content
       
@@ -22,7 +22,7 @@
 
             var results = response.data;
 
-            for (var i = 0; i < 4; i++) {
+            for (var i = 0; i < 6; i++) {
                 
                 // Creating a div to hold the athlete
                 var athleteDiv = $("<div class='athlete_gif'>");
@@ -92,10 +92,14 @@
           a.attr("data-person", athletes[i]);
 
           a.css({
-            'background-color': 'lightgrey',
+            'background-color': 'transparent',
+            'color': 'white',
             'width': '200px',
             'padding': '5px',
-            'margin': '5px'
+            'margin': '5px',
+            'border': '1px solid white',
+            'border-radius': '25px',
+            'margin-top': '20px'
 
         });         
           // Providing the initial button text
@@ -126,10 +130,10 @@
       renderButtons();
 
 
-      $(document).ready(function() {
+//       $(document).ready(function() {
    
-    $('.container').fadeIn(3000);
-});
+//     $('.container').fadeIn(3000);
+// });
  
     
     
